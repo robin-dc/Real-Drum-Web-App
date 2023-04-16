@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Drum Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/drum.png" type="image/x-icon">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/logo.png" alt="logo">
+            <h1>CODED BY ROBIN</h1>
+        </nav>
+    </header>
+
+    <main class="keys">
+        <div class="key kick kick1" data-key="KeyC">
+            <img src="assets/tom4.png" alt="">
+            <span>C</span>
+        </div>
+        <div class="key kick kick2" data-key="KeyM">
+            <img src="assets/tom4.png" alt="">
+            <span>M</span>
+        </div>
+        <div class="key snare" data-key="Space">
+            <img src="assets/tom1.png" alt="">
+            <span>SPACE</span>
+        </div>
+        <div class="key tom tom1" data-key="KeyV">
+            <img src="assets/tom3.png" alt="">
+            <span>V</span>
+        </div>
+        <div class="key tom tom2" data-key="KeyB">
+            <img src="assets/tom3.png" alt="">
+            <span>B</span>
+        </div>
+        <div class="key tom tom3" data-key="KeyN">
+            <img src="assets/tom3.png" alt="">
+            <span>N</span>
+        </div>
+        <div class="key boom" data-key="KeyZ">
+            <img src="assets/tom3.png" alt="">
+            <span>Z</span>
+        </div>
+        <div class="key cymbal hihat hihat1" data-key="KeyD">
+            <img src="assets/crash4.png" alt="">
+            <span>D</span>
+        </div>
+        <div class="key cymbal tink tink1" data-key="KeyF">
+            <img src="assets/crash4.png" alt="">
+            <span>F</span>
+        </div>
+        <div class="key cymbal tink tink2" data-key="KeyJ">
+            <img src="assets/crash4.png" alt="">
+            <span>J</span>
+        </div>
+        <div class="key cymbal hihat ride" data-key="KeyK">
+            <img src="assets/crash4.png" alt="">
+            <span>K</span>
+        </div>
+        <div class="key cymbal hat openhat" data-key="KeyL">
+            <img src="assets/crash4.png" alt="">
+            <span>L</span>
+        </div>
+        <div class="key cymbal hat closehat" data-key="Period">
+            <img src="assets/crash4.png" alt="">
+            <span>DOT</span>
+        </div>
+    </main>
+
+    <aside>
+        <audio src="sounds/snare.wav" data-key="Space"></audio>
+        <audio src="sounds/kick.wav" data-key="KeyC"></audio>
+        <audio src="sounds/kick.wav" data-key="KeyM"></audio>
+        <audio src="sounds/tom.wav" data-key="KeyV"></audio>
+        <audio src="sounds/tom.wav" data-key="KeyB"></audio>
+        <audio src="sounds/tom.wav" data-key="KeyN"></audio>
+        <audio src="sounds/boom.wav" data-key="KeyZ"></audio>
+        <audio src="sounds/hihat.wav" data-key="KeyD"></audio>
+        <audio src="sounds/tink.wav" data-key="KeyF"></audio>
+        <audio src="sounds/tink.wav" data-key="KeyJ"></audio>
+        <audio src="sounds/ride.wav" data-key="KeyK"></audio>
+        <audio src="sounds/openhat.wav" data-key="KeyL"></audio>
+        <audio src="sounds/clap.wav" data-key="Period"></audio>
+    </aside>
+</body>
+</html>
